@@ -1,14 +1,14 @@
 # Postfeed App
 
-Built a sample social platform application using React native and typeScript. This version of the app currently covers 3 screens; splash, post feed  and post details screen
+Postfeed App is a social platform prototype built using React Native and TypeScript, designed to showcase basic functionalities such as viewing posts, displaying comments, and viewing post details.
 
-## Description
-The App is an e-commerce platform that allows you to purchase a variety of products.The products, along with it's description, are displayed on the homepage and hence  add products to the cart.
+## Overview
+The Postfeed App provides users with the ability to browse through available posts, see the number of comments on each post, and view detailed information for individual posts. While the current version focuses on basic read functionalities, future updates will include features for adding comments and managing user profiles.
 
 
-## What You're Getting
+## Project Structure
 ```bash
-project-root/
+postFeed-App/
 ├── App.tsx                 
 ├── index.js                
 ├── src/
@@ -33,73 +33,39 @@ project-root/
 
 ```
 
+## Prerequisites
+Ensure you have Node.js, npm and react native cli installed on your machine.
 
+## Installation
+#### 1. Clone the repository:
+```bash
+git clone  https://github.com/farahmohelsayed/postFeed-App.git
+cd postFeed-App
+ ```
+#### 2. Install dependencies
+```bash
+npm install
+```
 
-## Starting the App
-#### `npm install`
-To install all the dependencies and packages found in package.json.
-#### `npx react-native run-android`
-To run the app on android device; real device or an emulator
-#### `npx react-native run-ios`
-To run the app on an IOS device; real device or simulator
-#### `npx react-native start` or `npm start`
-To run the app on an IOS device; real device or simulator
+## Running the App
+#### Android
+To run the app on an Android device (real device or emulator):
+```bash
+npx react-native run-android
+```
+#### iOS
+To run the app on an iOS device (real device or simulator):
+```bash
+npx react-native run-ios
+```
 
+## Starting the Metro Bundler
+To start the Metro bundler:
+```bash
+npx react-native start
+```
+### or
 
-
-## Other Available Scripts
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
